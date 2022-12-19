@@ -3,19 +3,29 @@ HW for research seminar
 
 
 The project structure:
+
 conf - 
+
   conf.py for setting and loging
+  
   settings.toml - configuration settings data (path, hyperparameters, etc)
   
+  
 connector-
+
   connector.py - function for fetching data
   
 model -
+
   conf - holds trained models
+  
   your_model.py - main file for training models
+  
 
 util -
+
   util.py - functions to load/save models
+  
   
 entrypoint.py - 'face' of the project
 
