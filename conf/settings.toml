@@ -1,0 +1,16 @@
+[DATA]
+data_set = "https://raw.githubusercontent.com/5x12/ml-cookbook/master/supplements/data/heart.csv"
+
+[MODEL]
+rf_path = "model/conf/rf.pkl"
+gb_path = "model/conf/gb.pkl"
+top = "rf"
+
+[PARAMS]
+random_state = 96
+test_size = 0.2
+rf_train = {max_depth=[3,5,7], n_estimators=[50, 100, 200], random_state=[96]}
+gb_train = {max_depth=[3,5,7], n_estimators=[50, 100, 200], random_state=[96]}
+
+[PREDICT]
+test = [[52,1,0,125,212,0,1,168,0,1,2,2,3]]
