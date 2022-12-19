@@ -30,6 +30,9 @@ util -
 entrypoint.py - 'face' of the project
 
 To get predictions use prediction in entrypoint.
+
 Entrypoint takes values for test (stored in settings toml under [PREDICT]:test) and choice of model (stored in settings toml under [MODEL]:top).
+
 Specify rf or gb to train or use pre-trained random forest or gradient boosting
+
 Training is started automaticaly if the model is not found 
