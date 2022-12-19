@@ -1,33 +1,35 @@
 # mini-project
-HW for research seminar
+##HW for research seminar
 
-
+---
 The project structure:
 
 conf - 
 
-  conf.py for setting and loging
+  - conf.py for setting and loging
   
-  settings.toml - configuration settings data (path, hyperparameters, etc)
+  - settings.toml - configuration settings data (path, hyperparameters, etc)
   
   
 connector-
 
-  connector.py - function for fetching data
+- connector.py - function for fetching data
   
 model -
 
-  conf - holds trained models
+ - conf - holds trained models
   
-  your_model.py - main file for training models
+ - your_model.py - main file for training models
   
 
 util -
 
-  util.py - functions to load/save models
+ - util.py - functions to load/save models
   
   
 entrypoint.py - 'face' of the project
+
+---
 
 To get predictions use prediction in entrypoint.
 
