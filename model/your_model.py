@@ -51,6 +51,7 @@ def train_rf(X_train:list, y_train:list, params:dict = settings.PARAMS.rf_train)
     return clf
 
 def predict(values:list, model:str) -> list:
+    # loads or trains specifief model and returns predictions
     if model == 'rf':
         model_path = settings.MODEL.rf_path
         fl = 1
