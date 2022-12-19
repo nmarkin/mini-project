@@ -1,5 +1,5 @@
 # mini-project
-##HW for research seminar
+#### HW for research seminar
 
 ---
 The project structure:
